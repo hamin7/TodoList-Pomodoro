@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TodoList-Pomodoro/static/css/main.1e6f76e9.chunk.css",
+    "main.js": "/TodoList-Pomodoro/static/js/main.3206fdcc.chunk.js",
+    "main.js.map": "/TodoList-Pomodoro/static/js/main.3206fdcc.chunk.js.map",
+    "runtime-main.js": "/TodoList-Pomodoro/static/js/runtime-main.c836e07c.js",
+    "runtime-main.js.map": "/TodoList-Pomodoro/static/js/runtime-main.c836e07c.js.map",
+    "static/js/2.1486614d.chunk.js": "/TodoList-Pomodoro/static/js/2.1486614d.chunk.js",
+    "static/js/2.1486614d.chunk.js.map": "/TodoList-Pomodoro/static/js/2.1486614d.chunk.js.map",
+    "index.html": "/TodoList-Pomodoro/index.html",
+    "static/css/main.1e6f76e9.chunk.css.map": "/TodoList-Pomodoro/static/css/main.1e6f76e9.chunk.css.map",
+    "static/js/2.1486614d.chunk.js.LICENSE.txt": "/TodoList-Pomodoro/static/js/2.1486614d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c836e07c.js",
+    "static/js/2.1486614d.chunk.js",
+    "static/css/main.1e6f76e9.chunk.css",
+    "static/js/main.3206fdcc.chunk.js"
+  ]
+}
