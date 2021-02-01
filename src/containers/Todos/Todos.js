@@ -11,6 +11,7 @@ import Loader from '../../components/UI/Loader/Loader';
 import Todo from './Todo/Todo';
 import Timer from '../../components/Timer';
 import * as actions from '../../store/actions';
+import App1 from '../../components/WhiteNoise/App1';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -90,6 +91,7 @@ const Todos = ({ todos, requested, userId }) => {
           </Button>
           <InputTodo opened={isAdding} close={() => setIsAdding(false)} />
           {content}
+          <App1 />
         </InnerWrapper>
       </Container>
     </Wrapper>

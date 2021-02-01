@@ -1,10 +1,16 @@
 # Todo-Pomodoro-App
 
+# Built with
+- React JS
+- React Router
+- Redux
+- Redux Thunk
+- Styled Components
+- Firebase & Firestore
+
 ## Todo
 
 - 모바일 접속 시 가입 버튼 가려짐
-- 가입 시 이름 한글 가능하도록
-- 
 
 아래 링크를 클릭하시면 Pomodoro 화면으로 들어갈 수 있습니다.<br>
 https://hamin7.github.io/TodoList-Pomodoro/
