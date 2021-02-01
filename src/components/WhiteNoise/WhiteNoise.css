@@ -9,9 +9,6 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 15px;
-    /* border: 3px solid #2f90ff; */
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     box-sizing: border-box;
   }
   
@@ -34,6 +31,7 @@ body {
   
   .AudioList div:hover {
     opacity: 0.5;
+    float: left;
   }
   
   .audioCurrent {
