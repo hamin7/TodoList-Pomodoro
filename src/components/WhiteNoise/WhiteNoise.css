@@ -31,7 +31,7 @@ body {
   
   .AudioList div:hover {
     opacity: 0.5;
-    float: left;
+    float: inline-start;
   }
   
   .audioCurrent {

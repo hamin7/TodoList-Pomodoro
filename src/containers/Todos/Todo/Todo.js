@@ -41,6 +41,12 @@ const deleteStyles = {
   cursor: 'pointer',
 };
 
+const currentStyles = {
+  color: 'var(--color-errorRed)',
+  margin: '0 .5rem',
+  cursor: 'pointer',
+};
+
 const Title = styled.div`
   font-size: 16pt;
 `;
@@ -53,9 +59,9 @@ const Todo = ({ todo, onClick }) => {
   let currentJob;
   if ( localStorage.getItem('doing')  === String(todo.id) ) {
     currentJob = (
-      <div>
-        <img src= "../../../assets/currentJob.png"></img>
-          This is currentJob
+      <div style={ currentStyles }>
+        <img src={ currentJob } width='10' height='10'/>
+          This is current job
       </div>);
   } else {
     currentJob = (<div></div>);
