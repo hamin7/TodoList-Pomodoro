@@ -29,7 +29,7 @@ class App1 extends Component {
         { title: '새 소리', file: morning_birds },
         { title: '빗소리', file: rain },
         { title: '해변 소리', file: summer_beach },
-        { title: '야영지 소리', file: tent },
+        { title: '숲 소리', file: tent },
         { title: '천둥 소리', file: thunder },
         { title: '겨울 바람', file: winter_wave },
         { title: '나무 베는 소리', file: wood_with_axe }
