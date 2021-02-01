@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TodoList-Pomodoro/static/css/main.d7fc1737.chunk.css",
-    "main.js": "/TodoList-Pomodoro/static/js/main.f86de568.chunk.js",
-    "main.js.map": "/TodoList-Pomodoro/static/js/main.f86de568.chunk.js.map",
+    "main.js": "/TodoList-Pomodoro/static/js/main.0b0bed6c.chunk.js",
+    "main.js.map": "/TodoList-Pomodoro/static/js/main.0b0bed6c.chunk.js.map",
     "runtime-main.js": "/TodoList-Pomodoro/static/js/runtime-main.c836e07c.js",
     "runtime-main.js.map": "/TodoList-Pomodoro/static/js/runtime-main.c836e07c.js.map",
     "static/js/2.c6638d4a.chunk.js": "/TodoList-Pomodoro/static/js/2.c6638d4a.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/TodoList-Pomodoro/index.html",
     "static/css/main.d7fc1737.chunk.css.map": "/TodoList-Pomodoro/static/css/main.d7fc1737.chunk.css.map",
     "static/js/2.c6638d4a.chunk.js.LICENSE.txt": "/TodoList-Pomodoro/static/js/2.c6638d4a.chunk.js.LICENSE.txt",
+    "static/media/currentJob.db55ddb2.png": "/TodoList-Pomodoro/static/media/currentJob.db55ddb2.png",
     "static/media/white4.8dbdfbc5.mp3": "/TodoList-Pomodoro/static/media/white4.8dbdfbc5.mp3",
     "static/media/whiteheartbeat.ef5c213e.mp3": "/TodoList-Pomodoro/static/media/whiteheartbeat.ef5c213e.mp3"
   },
@@ -17,6 +18,6 @@
     "static/js/runtime-main.c836e07c.js",
     "static/js/2.c6638d4a.chunk.js",
     "static/css/main.d7fc1737.chunk.css",
-    "static/js/main.f86de568.chunk.js"
+    "static/js/main.0b0bed6c.chunk.js"
   ]
 }
