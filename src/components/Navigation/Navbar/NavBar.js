@@ -12,6 +12,7 @@ const FixedWrapper = styled.header`
   left: 0;
   width: 100%;
   height: 6rem;
+  background-color : #2d2d2d;
 
   @media ${props => props.theme.mediaQueries.smallest} {
     display: none;

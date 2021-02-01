@@ -25,10 +25,10 @@ const App = ({ loggedIn, emailVerified }) => {
   } else if (loggedIn && emailVerified) {
     routes = (
       <Switch>
-        <Route exact path="/" component={Todos} />
+        <Route exact path="/TodoList-Pomodoro" component={Todos} />
         <Route exact path="/profile" component={Profile} />
         <Route exact path="/logout" component={Logout} />
-        <Redirect to="/" />
+        <Redirect to="/TodoList-Pomodoro" />
       </Switch>
     );
   } else {
