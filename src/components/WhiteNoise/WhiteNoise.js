@@ -47,8 +47,8 @@ class App1 extends Component {
 
   render() {
     return (
-      <div className='App'>
-        <h1>백색 소음 재생기</h1>
+      <div className='whiteNoise'>
+        <h1 noMargin size="h1" color="white">White Noise</h1>
 
         <Message audioCurrent={this.state.audioCurrent} />
 

@@ -1,44 +1,45 @@
-body {
-    background-color: #f75745;
-  }
-  
-  .App {
-    text-align: center;
-    color: #ffffff;
-    background: #2d2d2d;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px;
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    text-shadow: 2px 1px #303030;
-  }
-  
-  .Message {
-    min-height: 50px;
-  }
-  
-  .AudioList {
-    cursor: pointer;
-  }
-  
-  .AudioList div {
-    padding: 5px;
-    margin-top: 15px;
-  }
-  
-  .AudioList div:hover {
-    opacity: 0.5;
-    float: inline-start;
-  }
-  
-  .audioCurrent {
-    color: #2f90ff;
-    background: #303030;
-    margin: 0 10%;
-    border: none;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
+.whiteNoise {
+  text-align: center;
+  color: #ffffff;
+  /* background: #2d2d2d; */
+  /* width: 25pc; */
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+h1 {
+  text-shadow: 2px 1px #303030;
+}
+
+.Message {
+  min-height: 50px;
+}
+
+.AudioList {
+  /* cursor: pointer;
+  display: flex; */
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 12pt;
+}
+
+.AudioList div {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.AudioList div:hover {
+  opacity: 0.5;
+  float: inline-start;
+}
+
+.audioCurrent {
+  color: #2f90ff;
+  background: #303030;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

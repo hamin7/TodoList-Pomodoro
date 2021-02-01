@@ -60,18 +60,16 @@ const Todo = ({ todo, onClick }) => {
   if ( localStorage.getItem('doing')  === String(todo.id) ) {
     currentJob = (
       <div style={ currentStyles }>
-        <img src={ currentJob } width='10' height='10'/>
-          This is current job
+        {/* <img src={ workingIMG } width='30' height='30'/> */}
+          Now you're doing
       </div>);
-  } else {
-    currentJob = (<div></div>);
-  }
+  } 
 
   return (
     <Wrapper onClick={onClick}>
       {currentJob}
       <Title> {todo.todo}</Title>
-      <Count>{todo.count}번의 Pomo동안, {todo.count * 25}분 간 일했습니다.</Count>
+      <Count>{todo.count}번의 Pomo, {todo.count * 25}분 간 일했습니다.</Count>
       <Controls>
         <i
           className="fas fa-edit"
