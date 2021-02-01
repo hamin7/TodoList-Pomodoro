@@ -126,3 +126,9 @@ Start 버튼을 누르시면 코드 리팩토링하기 Todo에 대한 Pomodoro�
 ACCOUNT 탭에서 이름, 비밀번호 등 계정 정보를 수정할 수 있습니다.
 
 ![17](./Document/Images/17.png)
+
+<br>
+
+모바일과 같이 폭이 좁은 화면의 경우 아래와 같이 나타납니다.
+
+![18](./Document/Images/18.png)
