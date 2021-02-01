@@ -20,11 +20,11 @@ const MessageWrapper = styled.div`
 const SignUpSchema = Yup.object().shape({
   firstName: Yup.string()
     .required('Your first name is required.')
-    .min(3, 'Too short.')
+    .min(1, 'Too short.')
     .max(25, 'Too long.'),
   lastName: Yup.string()
     .required('Your last name is required.')
-    .min(3, 'Too short.')
+    .min(1, 'Too short.')
     .max(25, 'Too long.'),
   email: Yup.string()
     .email('Invalid email.')

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App1.css';
+import './WhiteNoise.css';
 
 const ListItem = ({ item, onClick, audioCurrent }) => {
   return (

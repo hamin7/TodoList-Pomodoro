@@ -18,7 +18,7 @@ export const FormWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-mainDark);
+  background-color: #21283e;
   box-shadow: 0rem 0.5rem 3.5rem var(--shadow);
 `;
 

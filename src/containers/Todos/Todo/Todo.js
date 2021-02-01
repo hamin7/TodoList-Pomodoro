@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import DeleteTodo from '../DeleteTodo/DeleteTodo';
 import InputTodo from '../InputTodo/InputTodo';
+import workingIMG from '../../../assets/currentJob.png';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -51,16 +52,20 @@ const Todo = ({ todo, onClick }) => {
   
   let currentJob;
   if ( localStorage.getItem('doing')  === String(todo.id) ) {
-    currentJob = (<div>This is currentJob</div>);
+    currentJob = (
+      <div>
+        <img src= "../../../assets/currentJob.png"></img>
+          This is currentJob
+      </div>);
   } else {
     currentJob = (<div></div>);
   }
 
   return (
     <Wrapper onClick={onClick}>
-      <Title> {todo.todo}</Title>
-      <Count>{todo.count} times</Count>
       {currentJob}
+      <Title> {todo.todo}</Title>
+      <Count>{todo.count}번의 Pomo동안, {todo.count * 25}분 간 일했습니다.</Count>
       <Controls>
         <i
           className="fas fa-edit"
