@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import DeleteTodo from '../DeleteTodo/DeleteTodo';
 import InputTodo from '../InputTodo/InputTodo';
 
+import tomato from '../../../assets/tomato.png';
+
 const Wrapper = styled.div`
   width: 100%;
   position: relative;
@@ -68,7 +70,7 @@ const Todo = ({ todo, onClick }) => {
     <Wrapper onClick={onClick}>
       {currentJob}
       <Title> {todo.todo}</Title>
-      <Count>{todo.count}번의 Pomo</Count>
+      <Count> <img src={ tomato } width='20' height='20'/>  x  {todo.count} </Count>
       <Controls>
         <i
           className="fas fa-edit"
