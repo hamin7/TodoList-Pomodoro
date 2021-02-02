@@ -61,7 +61,6 @@ const Todo = ({ todo, onClick }) => {
   if ( localStorage.getItem('doing')  === String(todo.id) ) {
     currentJob = (
       <div style={ currentStyles }>
-        {/* <img src={ workingIMG } width='30' height='30'/> */}
           Now you're doing
       </div>);
   } 
