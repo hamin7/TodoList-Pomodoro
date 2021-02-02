@@ -30,7 +30,7 @@ const MessageWrapper = styled.div`
 const TodoSchema = Yup.object().shape({
   todo: Yup.string()
     .required('The todo is required.')
-    .min(4, 'Too short.'),
+    .min(1, 'Too short.'),
 });
 
 const AddTodo = ({ addTodo, loading, error }) => {
