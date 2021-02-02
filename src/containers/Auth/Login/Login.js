@@ -76,6 +76,9 @@ const Login = ({ login, loading, error, cleanUp }) => {
             <CustomLink link="/recover" color="white">
               Forgot your password?
             </CustomLink>
+            <CustomLink link="/signup" color="white">
+              Do you want to sign up?
+            </CustomLink>
             <MessageWrapper>
               <Message error show={error}>
                 {error}
