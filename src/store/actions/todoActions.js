@@ -120,7 +120,6 @@ export const addCount = (id) => async (
     const index = todos.findIndex(todo => todo.id === parseInt(id));
 
     todos[index].count += 1;
-    console.log(todos[index].count);
 
     await firestore
       .collection('todos')

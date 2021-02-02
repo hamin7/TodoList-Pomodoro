@@ -26,8 +26,6 @@ const Timer = ({
     const [isPlaying, setIsPlaying] = useState(false);
     const [time, setTime] = useState(0);
 
-    console.log(error);
-
     const addSecond = () => {
         if (time < timerDuration) {
             setTime(time + 1)
@@ -50,12 +48,10 @@ const Timer = ({
     };
 
     const addCountAction = async () => {
-        console.log(currentJob);
-        const res = await addCount(currentJob);    //실행이 안되고있음...흠
+        const res = await addCount(currentJob);
     }
 
     useEffect(() => {
-        console.log(time);
         if (isPlaying) {
             const countdown = setInterval(() => {
                 addSecond();
@@ -80,7 +76,6 @@ const Timer = ({
     return (
         <div>
             <div className="Timer">
-                {/* <div className="title">Pomodoro</div> */}
                 <div className="ButtonBox">
                     <a className="TimeButton" onClick={() => resetTimer(SHORT_BREAK)}>SHORT Break</a>
                     <a className="TimeButton" onClick={() => resetTimer(POMODORO)}>POMODORO</a>

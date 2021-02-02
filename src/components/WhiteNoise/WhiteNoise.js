@@ -16,7 +16,17 @@ import thunder from '../../audio/thunder.mp3';
 import winter_wave from '../../audio/winter_wave.mp3';
 import wood_with_axe from '../../audio/wood_with_axe.mp3';
 
-import babbling_stream_IMG from '../../assets/tomato.png';
+import babbling_stream_img from '../../assets/babbling_stream.svg';
+import campfire_img from '../../assets/campfire.svg';
+import commuter_train_img from '../../assets/commuter_train.svg';
+import haircut_img from '../../assets/haircut.svg';
+import morning_birds_img from '../../assets/morning_birds.svg';
+import rain_img from '../../assets/rain.svg';
+import summer_beach_img from '../../assets/summer_beach.svg';
+import tent_img from '../../assets/tent.svg';
+import thunder_img from '../../assets/thunder.svg';
+import winter_wave_img from '../../assets/winter_wave.svg';
+import wood_with_axe_img from '../../assets/wood_with_axe.svg';
 
 class App1 extends Component {
   constructor(props) {
@@ -24,17 +34,17 @@ class App1 extends Component {
     this.state = {
       audioCurrent: {},
       audioList: [
-        { title: '시냇물 소리', file: babbling_stream, img: babbling_stream_IMG },
-        { title: '모닥불 소리', file: campfire, img: babbling_stream_IMG },
-        { title: '열차 소리', file: commuter_train, img: babbling_stream_IMG },
-        { title: '미용실 소리', file: haircut, img: babbling_stream_IMG },
-        { title: '새 소리', file: morning_birds, img: babbling_stream_IMG },
-        { title: '빗소리', file: rain, img: babbling_stream_IMG },
-        { title: '해변 소리', file: summer_beach, img: babbling_stream_IMG },
-        { title: '숲 소리', file: tent, img: babbling_stream_IMG },
-        { title: '천둥 소리', file: thunder, img: babbling_stream_IMG },
-        { title: '겨울 바람', file: winter_wave, img: babbling_stream_IMG },
-        { title: '나무 베는 소리', file: wood_with_axe, img: babbling_stream_IMG }
+        { title: '시냇물 소리', file: babbling_stream, img: babbling_stream_img },
+        { title: '모닥불 소리', file: campfire, img: campfire_img },
+        { title: '열차 소리', file: commuter_train, img: commuter_train_img },
+        { title: '미용실 소리', file: haircut, img: haircut_img },
+        { title: '새 소리', file: morning_birds, img: morning_birds_img },
+        { title: '빗소리', file: rain, img: rain_img },
+        { title: '해변 소리', file: summer_beach, img: summer_beach_img },
+        { title: '숲 소리', file: tent, img: tent_img },
+        { title: '천둥 소리', file: thunder, img: thunder_img },
+        { title: '겨울 바람', file: winter_wave, img: winter_wave_img },
+        { title: '나무 베는 소리', file: wood_with_axe, img: wood_with_axe_img }
       ]
     }
   }

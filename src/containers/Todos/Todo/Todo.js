@@ -51,7 +51,9 @@ const currentStyles = {
 const Title = styled.div`
   font-size: 16pt;
 `;
-const Count = styled.div``;
+const Count = styled.div`
+  font-size: 14pt;
+`;
 
 const Todo = ({ todo, onClick }) => {
   const [isDeleting, setisDeleting] = useState(false);
@@ -69,7 +71,7 @@ const Todo = ({ todo, onClick }) => {
     <Wrapper onClick={onClick}>
       {currentJob}
       <Title> {todo.todo}</Title>
-      <Count> <img src={ tomato } width='20' height='20'/>  x  {todo.count} </Count>
+      <Count> <img src={ tomato } width='25' height='25'/>  x  {todo.count} </Count>
       <Controls>
         <i
           className="fas fa-edit"

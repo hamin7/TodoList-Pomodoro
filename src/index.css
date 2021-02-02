@@ -10,7 +10,7 @@ body {
   background: url(https://source.unsplash.com/random/1920x1080);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #2d2d2d;
 }
 
 code {
