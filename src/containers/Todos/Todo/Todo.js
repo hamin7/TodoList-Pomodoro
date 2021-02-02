@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import DeleteTodo from '../DeleteTodo/DeleteTodo';
 import InputTodo from '../InputTodo/InputTodo';
-import workingIMG from '../../../assets/currentJob.png';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -69,7 +68,7 @@ const Todo = ({ todo, onClick }) => {
     <Wrapper onClick={onClick}>
       {currentJob}
       <Title> {todo.todo}</Title>
-      <Count>{todo.count}번의 Pomo, {todo.count * 25}분 간 일했습니다.</Count>
+      <Count>{todo.count}번의 Pomo</Count>
       <Controls>
         <i
           className="fas fa-edit"
