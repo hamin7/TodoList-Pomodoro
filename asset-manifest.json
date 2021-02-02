@@ -1,32 +1,43 @@
 {
   "files": {
-    "main.css": "/TodoList-Pomodoro/static/css/main.eb95513b.chunk.css",
-    "main.js": "/TodoList-Pomodoro/static/js/main.1a32b9bd.chunk.js",
-    "main.js.map": "/TodoList-Pomodoro/static/js/main.1a32b9bd.chunk.js.map",
+    "main.css": "/TodoList-Pomodoro/static/css/main.08188c42.chunk.css",
+    "main.js": "/TodoList-Pomodoro/static/js/main.aee98327.chunk.js",
+    "main.js.map": "/TodoList-Pomodoro/static/js/main.aee98327.chunk.js.map",
     "runtime-main.js": "/TodoList-Pomodoro/static/js/runtime-main.c836e07c.js",
     "runtime-main.js.map": "/TodoList-Pomodoro/static/js/runtime-main.c836e07c.js.map",
     "static/js/2.c6638d4a.chunk.js": "/TodoList-Pomodoro/static/js/2.c6638d4a.chunk.js",
     "static/js/2.c6638d4a.chunk.js.map": "/TodoList-Pomodoro/static/js/2.c6638d4a.chunk.js.map",
     "index.html": "/TodoList-Pomodoro/index.html",
-    "static/css/main.eb95513b.chunk.css.map": "/TodoList-Pomodoro/static/css/main.eb95513b.chunk.css.map",
+    "static/css/main.08188c42.chunk.css.map": "/TodoList-Pomodoro/static/css/main.08188c42.chunk.css.map",
     "static/js/2.c6638d4a.chunk.js.LICENSE.txt": "/TodoList-Pomodoro/static/js/2.c6638d4a.chunk.js.LICENSE.txt",
     "static/media/babbling_stream.95b39407.mp3": "/TodoList-Pomodoro/static/media/babbling_stream.95b39407.mp3",
+    "static/media/babbling_stream.aa65c666.svg": "/TodoList-Pomodoro/static/media/babbling_stream.aa65c666.svg",
     "static/media/campfire.31f5a7e9.mp3": "/TodoList-Pomodoro/static/media/campfire.31f5a7e9.mp3",
+    "static/media/campfire.6c5b19dc.svg": "/TodoList-Pomodoro/static/media/campfire.6c5b19dc.svg",
+    "static/media/commuter_train.3f7728e8.svg": "/TodoList-Pomodoro/static/media/commuter_train.3f7728e8.svg",
     "static/media/commuter_train.3ff164e1.mp3": "/TodoList-Pomodoro/static/media/commuter_train.3ff164e1.mp3",
     "static/media/haircut.db858adc.mp3": "/TodoList-Pomodoro/static/media/haircut.db858adc.mp3",
+    "static/media/haircut.f40a485a.svg": "/TodoList-Pomodoro/static/media/haircut.f40a485a.svg",
+    "static/media/morning_birds.9367f0cf.svg": "/TodoList-Pomodoro/static/media/morning_birds.9367f0cf.svg",
     "static/media/morning_birds.b426ddba.mp3": "/TodoList-Pomodoro/static/media/morning_birds.b426ddba.mp3",
+    "static/media/rain.8c67c9d9.svg": "/TodoList-Pomodoro/static/media/rain.8c67c9d9.svg",
     "static/media/rain.e1d6cbce.mp3": "/TodoList-Pomodoro/static/media/rain.e1d6cbce.mp3",
     "static/media/summer_beach.2d553b88.mp3": "/TodoList-Pomodoro/static/media/summer_beach.2d553b88.mp3",
+    "static/media/summer_beach.8d844c3b.svg": "/TodoList-Pomodoro/static/media/summer_beach.8d844c3b.svg",
+    "static/media/tent.4b263050.svg": "/TodoList-Pomodoro/static/media/tent.4b263050.svg",
     "static/media/tent.96458cde.mp3": "/TodoList-Pomodoro/static/media/tent.96458cde.mp3",
     "static/media/thunder.2b1b1495.mp3": "/TodoList-Pomodoro/static/media/thunder.2b1b1495.mp3",
+    "static/media/thunder.73211f94.svg": "/TodoList-Pomodoro/static/media/thunder.73211f94.svg",
     "static/media/tomato.8bcd4a16.png": "/TodoList-Pomodoro/static/media/tomato.8bcd4a16.png",
+    "static/media/winter_wave.7c749d94.svg": "/TodoList-Pomodoro/static/media/winter_wave.7c749d94.svg",
     "static/media/winter_wave.8fe076de.mp3": "/TodoList-Pomodoro/static/media/winter_wave.8fe076de.mp3",
-    "static/media/wood_with_axe.c5634adf.mp3": "/TodoList-Pomodoro/static/media/wood_with_axe.c5634adf.mp3"
+    "static/media/wood_with_axe.c5634adf.mp3": "/TodoList-Pomodoro/static/media/wood_with_axe.c5634adf.mp3",
+    "static/media/wood_with_axe.d3e8cd39.svg": "/TodoList-Pomodoro/static/media/wood_with_axe.d3e8cd39.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c836e07c.js",
     "static/js/2.c6638d4a.chunk.js",
-    "static/css/main.eb95513b.chunk.css",
-    "static/js/main.1a32b9bd.chunk.js"
+    "static/css/main.08188c42.chunk.css",
+    "static/js/main.aee98327.chunk.js"
   ]
 }
