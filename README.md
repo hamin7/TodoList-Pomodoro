@@ -19,7 +19,7 @@ https://hamin7.github.io/TodoList-Pomodoro/
 
 처음 접속하면 아래와 같이 로그인 화면이 나타납니다.
 
-![1](Document/Images/1.png)
+![1](Document/Images/1.PNG)
 
 <br>
 
