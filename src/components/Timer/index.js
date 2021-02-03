@@ -13,7 +13,6 @@ function formatTime(time) {
 }
 
 const Timer = ({
-    // timerDuration,
     currentJob,
     addCount,
     error

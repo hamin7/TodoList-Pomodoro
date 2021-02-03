@@ -7,7 +7,6 @@ const ListItem = ({ item, onClick, audioCurrent }) => {
       onClick={e => onClick(item)}
       className={audioCurrent === item ? 'audioCurrent' : ''}
     >
-      {/* {item.title} */}
       <img src={ item.img  } width='40' height='40'/>
     </div>
   );
