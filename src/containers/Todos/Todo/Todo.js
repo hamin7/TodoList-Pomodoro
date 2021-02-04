@@ -48,6 +48,16 @@ const currentStyles = {
   cursor: 'pointer',
 };
 
+const completeStyles = {
+  textDecoration: 'line-through'
+};
+
+const checkStyles = {
+  color: 'green',
+  margin: '0 .5rem',
+  cursor: 'pointer',
+};
+
 const Title = styled.div`
   font-size: 16pt;
 `;
@@ -64,13 +74,29 @@ const Todo = ({ todo, onClick }) => {
     currentJob = (
       <div style={ currentStyles }>
           Now you're doing
-      </div>);
-  } 
+      </div>
+    );
+  }
+
+  let todoItem;
+  if (todo.count != 0) {
+    todoItem = (
+      <Title style={completeStyles}> 
+        {todo.todo}
+      </Title>
+    );
+  } else {
+    todoItem = (
+      <Title> 
+        {todo.todo}
+      </Title>
+    );
+  }
 
   return (
     <Wrapper onClick={onClick}>
       {currentJob}
-      <Title> {todo.todo}</Title>
+      {todoItem}
       <Count> <img src={ tomato } width='25' height='25'/>  x  {todo.count} </Count>
       <Controls>
         <i
@@ -82,6 +108,10 @@ const Todo = ({ todo, onClick }) => {
           className="fas fa-trash-alt"
           style={deleteStyles}
           onClick={() => setisDeleting(true)}
+        />
+        <i
+          className="fas fa-check"
+          style={checkStyles}
         />
         <DeleteTodo
           todo={todo}
