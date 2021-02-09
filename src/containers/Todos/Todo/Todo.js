@@ -79,7 +79,7 @@ const Todo = ({ todo, onClick }) => {
   }
 
   let todoItem;
-  if (todo.count === 4) {
+  if (todo.count == 4) {
     todoItem = (
       <Title style={completeStyles}> 
         {todo.todo}
