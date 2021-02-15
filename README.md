@@ -10,7 +10,10 @@
 
 
 아래 링크를 클릭하시면 Pomodoro 화면으로 들어갈 수 있습니다.<br>
-https://hamin7.github.io/TodoList-Pomodoro/
+https://hamin7.github.io/TodoList-Pomodoro/<br>
+
+데모 영상은 아래 링크로 가시면 됩니다.<br>
+https://www.youtube.com/watch?v=jox3jw_-Gls&feature=youtu.be<br>
 
 <br>
 
