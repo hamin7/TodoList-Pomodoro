@@ -1,11 +1,11 @@
 # Todo-Pomodoro-App
 
 # Built with
-- React JS
-- React Router
-- Redux
-- Redux Thunk
-- Styled Components
+- React 17.x
+- React Router 5.x 
+- Redux 4.x
+- Redux Thunk 2.x
+- Styled Components 5.x
 - Firebase & Firestore
 
 
